@@ -13,10 +13,6 @@ def largestPrimeFactor(arg1):
       if n % i == 0:
          maxprime = i
          n = n / i
-    
-    if n > 2:
-      maxprime = n
-    
     return int(maxprime)
 
-print(largestPrimeFactor(600851475143))
+print(largestPrimeFactor(13195))
